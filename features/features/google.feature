@@ -5,7 +5,7 @@ Feature: opening youtube trending video
 
     Scenario: Search trends
         When I enter youtube trending video
-        Then I click on "(//input[contains(@class,'gNO89b')])[1]"
+        Then I press enter
         Then I click on "(//div[@role='heading'])[1]"
 
 
