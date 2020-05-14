@@ -11,10 +11,9 @@ When(/^I enter youtube trending video$/,function(){
     
     const input = $('//*[@id="tsf"]/div[2]/div[1]/div[1]/div/div[2]/input');
     input.waitForExist({ timeout: 5000 });
-    input.setValue("Yotube trending video" );
+    input.setValue("Youtube trending video" );
 
-    console.log(input.getValue());
-    
+        
 });
 
 Then(/^I click on "(.+)"$/,query => {
