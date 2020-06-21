@@ -44,8 +44,11 @@ export default (elementType, selector, falseCase, expectedText) => {
         boolFalseCase = true;
     }
 
-    const text = browser[command](selector);
 
+   console.log(command+"--"+selector);
+    const text = browser[command](selector);
+    
+    
     if (boolFalseCase) {
         expect(parsedExpectedText).not.toBe(text);
     } else {
