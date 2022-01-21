@@ -35,7 +35,7 @@
     "babel-register": "^6.26.0",
     "cucumber": "^6.0.5",
     "cucumber-html-reporter": "^5.2.0",
-    "log4js": "^6.2.1",
+    "log4js": "^6.4.0",
     "wdio-cucumber-reporter": "0.0.2",
     "wdio-cucumberjs-json-reporter": "^2.0.1",
     "wdio-iedriver-service": "^0.1.0",
