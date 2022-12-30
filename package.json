@@ -21,7 +21,7 @@
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/register": "^7.9.0",
-    "@rpii/wdio-html-reporter": "^6.0.4",
+    "@rpii/wdio-html-reporter": "^6.4.0",
     "@wdio/cli": "^6.1.11",
     "@wdio/cucumber-framework": "^6.1.8",
     "@wdio/dot-reporter": "^6.1.9",
